@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+<!--		/> closing tag is strict HTML, according to class style guide-->
+		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!-- ADD CUSTOM CSS BELOW -->
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
@@ -16,6 +18,29 @@
 		</body>
 	</head>
 	<body>
-		<h1>Hello Bootstrap</h1>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="column">
+						<h1>Bootstrap Demo</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<p>Lorem ipsum dolor amet artisan air plant health goth flannel PBR&B lyft etsy paleo shaman hella banjo. Truffaut enamel pin iceland farm-to-table sartorial. Meh helvetica williamsburg pinterest craft beer chillwave portland banh mi whatever kickstarter franzen irony next level blue bottle intelligentsia. Pickled gluten-free sriracha wayfarers keffiyeh la croix meh celiac readymade blog humblebrag mumblecore. Mlkshk single-origin coffee fam crucifix, cloud bread meditation copper mug sartorial mustache cray gluten-free 90's.</p>
+					</div>
+					<div class="col">
+						<p>Lorem ipsum dolor amet artisan air plant health goth flannel PBR&B lyft etsy paleo shaman hella banjo. Truffaut enamel pin iceland farm-to-table sartorial. Meh helvetica williamsburg pinterest craft beer chillwave portland banh mi whatever kickstarter franzen irony next level blue bottle intelligentsia. Pickled gluten-free sriracha wayfarers keffiyeh la croix meh celiac readymade blog humblebrag mumblecore. Mlkshk single-origin coffee fam crucifix, cloud bread meditation copper mug sartorial mustache cray gluten-free 90's.</p>
+					</div>
+					<div class="col">
+						<p>Lorem ipsum dolor amet artisan air plant health goth flannel PBR&B lyft etsy paleo shaman hella banjo. Truffaut enamel pin iceland farm-to-table sartorial. Meh helvetica williamsburg pinterest craft beer chillwave portland banh mi whatever kickstarter franzen irony next level blue bottle intelligentsia. Pickled gluten-free sriracha wayfarers keffiyeh la croix meh celiac readymade blog humblebrag mumblecore. Mlkshk single-origin coffee fam crucifix, cloud bread meditation copper mug sartorial mustache cray gluten-free 90's.</p>
+					</div>
+				</div>
+			</div>
+		</main>
 	</body>
 </html>
